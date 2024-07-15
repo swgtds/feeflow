@@ -3,8 +3,7 @@ Sure! Here's the revised README for a Fees Tracker Management System project foc
 ---
 
 # Fees Tracker Management System
-
-[#]![Fees Tracker](https://via.placeholder.com/728x90.png)
+# ![Fees Tracker](https://via.placeholder.com/728x90.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
