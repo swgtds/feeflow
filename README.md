@@ -2,8 +2,7 @@ Sure! Here's the revised README for a Fees Tracker Management System project foc
 
 ---
 
-# Fees Tracker Management System
-# ![Fees Tracker](https://via.placeholder.com/728x90.png)
+# FeeFlow- Fees Tracker Management System
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -42,36 +41,39 @@ The Fees Tracker Management System is a Django-based web application designed to
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/swgtds/feeflow.git
+   ```
+2. **Change the present working directory:**
+   ```bash
    cd feeflow
    ```
 
-2. **Create and activate a virtual environment:**
+4. **Create and activate a virtual environment:**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install the required dependencies:**
+5. **Install the required dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run migrations:**
+6. **Run migrations:**
    ```bash
    python manage.py migrate
    ```
 
-5. **Create a superuser:**
+7. **Create a superuser:**
    ```bash
    python manage.py createsuperuser
    ```
 
-6. **Run the development server:**
+8. **Run the development server:**
    ```bash
    python manage.py runserver
    ```
 
-7. **Access the application:**
+9. **Access the application:**
    Open your browser and go to `http://127.0.0.1:8000/admin`.
 
 ## Usage
