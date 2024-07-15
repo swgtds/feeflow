@@ -1,0 +1,33 @@
+{% load static %}
+<html> 
+<head> 
+	<title>Edit Admission Date</title> 
+	<link rel="stylesheet" href="{% static 'style.css' %}"> 
+    <link rel="stylesheet" href="{% static 'slide_bg.css' %}">
+</head> 
+
+<body> 
+	<div class="main">
+        <div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
+        <h1>Edit Admission Date</h1> 
+		<form action="../edcode-admission-date/{{e.id}}">
+			<label for="a5">Admission Date:</label> 
+			<input type="date" 
+            				name="a5"
+                            value="{{e.admissionDate}}">
+                <form >
+                    <button class="button" onclick="home()">Confirm</button>
+                </div>         
+    <script>
+        function home() {
+            alert("Student Details Edited!");
+            window.location.href = "main_menu.html";
+        }
+    </script>
+        </div>
+    </form>
+</body> 
+
+</html>

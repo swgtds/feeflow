@@ -1,0 +1,85 @@
+{% load static %}
+<html> 
+<head> 
+	<title>Student Details</title> 
+	<link rel="stylesheet" href="{% static 'style.css' %}"> 
+</head> 
+
+<body> 
+	<div class="main"> 
+		<h1>Add Student Details</h1> 
+		<form action="ins-fees-record"> 
+			<label for="a7">January</label> 
+			<input type="text" 
+            name="a7"
+			placeholder="Enter Student name" required> 
+
+
+			<label for="a8">February</label> 
+			<input type="text" 
+				name="a8"
+				placeholder="Enter Guardian Name" required> 
+
+			<label for="a9">March</label> 
+			<input type="text"
+				name="a9"
+				placeholder="Enter Student ID" required> 
+
+            <label for="a10">April:</label> 
+            <input type="text"
+                    name="a10"
+                    placeholder="Enter Amount" required> 
+        
+			<label for="a11">May:</label> 
+			<input type="text" 
+            				name="a11"
+				placeholder="Enter Admission Date" required>
+
+			<label for="a12">June</label> 
+			<input type="text"
+				name="a12"
+				placeholder="Enter your Standard" required> 
+			
+			<label for="a13">July</label> 
+			<input type="text" 
+            name="a13"
+			placeholder="Enter Student name" required> 
+
+
+			<label for="a14">August:</label> 
+			<input type="text" 
+				name="a14"
+				placeholder="Enter Guardian Name" required> 
+
+			<label for="a15">September:</label> 
+			<input type="text"
+				name="a15"
+				placeholder="Enter Student ID" required> 
+
+            <label for="a16">October:</label> 
+            <input type="text"
+                    name="a16"
+                    placeholder="Enter Amount" required> 
+        
+			<label for="a17">November:</label> 
+			<input type="text" 
+            				name="a17"
+				placeholder="Enter Admission Date" required>
+
+			<label for="a18">December:</label> 
+			<input type="text"
+				name="a18"
+				placeholder="Enter your Standard" required> 	
+
+                <form >
+                    <button class="button" onclick="home2()">Confirm</button>
+                </div>         
+    <script>
+        function home2() {
+            alert("Student Added!");
+            window.location.href = "feesrecord.html"; 
+        }
+    </script>
+</body> 
+
+</html>

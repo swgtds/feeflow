@@ -1,0 +1,24 @@
+{% load static %}
+<html lang="en-US">
+    <link rel="stylesheet" href="{% static 'sty.css' %}">
+    <link rel="stylesheet" href="{% static 'sty_img.css' %}">
+    <link rel="stylesheet" href="{% static 'sty_bg_feestrack.css' %}">
+    <link rel="stylesheet" href="{% static 'sty_pay.css' %}">
+    <head>
+        <title>Admin Login</title>
+    </head>
+    <body>
+      <div class="form-box">
+            <div class="header-text">
+                <h1 style="color:white">Admin Login</h1>
+                <h2>ABC School</h2></div>
+                <form action="admin-login">
+                    {% csrf_token %}
+                    <input name="username" placeholder="Your Username" type="text" required>
+                    <input name="pwd" placeholder="Your Password" type="password" required>
+                    <button type="submit" class="pay-button">Login</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

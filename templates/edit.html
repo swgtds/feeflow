@@ -1,0 +1,53 @@
+{% load static %}
+<html> 
+<head> 
+	<title>Edit Student Details</title> 
+	<link rel="stylesheet" href="{% static 'style.css' %}"> 
+    <link rel="stylesheet" href="{% static 'slide_bg.css' %}">
+</head> 
+
+<body> 
+	<div class="main"> 
+		<div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
+		<h1>Edit Student Details</h1> 
+		<form action="../edcode/{{e.id}}">
+			<label for="a1">Student Name:</label> 
+			<input type="text" 
+            name="a1"
+			value="{{e.name}}"> 
+
+
+			<label for="a2">Guardian Name:</label> 
+			<input type="text" 
+				name="a2"
+				value="{{e.guardianName}}"> 
+
+			<label for="a3">Student ID:</label> 
+			<input type="number"
+				name="a3"
+				value="{{e.studentId}}"> 
+
+            <label for="a3">Amount:</label> 
+            <input type="number"
+                    name="a4"
+                    value="{{e.amount}}"> 
+			<label for="a6">Standard:</label> 
+			<input type="class"
+				name="a6"
+				value="{{e.std}}"> 
+                <form >
+                    <button class="button" onclick="home()">Confirm</button>
+                </div>         
+    <script>
+        function home() {
+            alert("Student Details Edited!");
+            window.location.href = "main_menu.html";
+        }
+    </script>
+        </div>
+    </form>
+</body> 
+
+</html>

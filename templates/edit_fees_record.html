@@ -1,0 +1,77 @@
+{% load static %}
+<html> 
+<head> 
+	<title>Edit Fees Record</title> 
+	<link rel="stylesheet" href="{% static 'style.css' %}"> 
+    <link rel="stylesheet" href="{% static 'slide_bg.css' %}">
+</head> 
+
+<body> 
+	<div class="main">
+        <div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
+        <h1>Edit Fees Record</h1> 
+		<form action="../edcode-fees-record/{{e.id}}">
+			<label for="a7">January:</label> 
+			<input type="text" 
+            				name="a7"
+                            value="{{e.jan}}">
+            <label for="a8">February:</label> 
+			<input type="text" 
+            				name="a8"
+                            value="{{e.feb}}">
+            <label for="a9">March:</label> 
+			<input type="text" 
+            				name="a9"
+                            value="{{e.mar}}">
+            <label for="a10">April:</label> 
+			<input type="text" 
+            				name="a10"
+                            value="{{e.april}}">
+            <label for="a11">May:</label> 
+			<input type="text" 
+            				name="a11"
+                            value="{{e.may}}">    
+            <label for="a12">June:</label> 
+			<input type="text" 
+            				name="a12"
+                            value="{{e.june}}">  
+            <label for="a13">July:</label> 
+			<input type="text" 
+            				name="a13"
+                            value="{{e.july}}">
+            <label for="a14">August:</label> 
+			<input type="text" 
+            				name="a14"
+                            value="{{e.aug}}">
+            <label for="a15">September:</label> 
+			<input type="text" 
+            				name="a15"
+                            value="{{e.sept}}">
+            <label for="a16">October:</label> 
+			<input type="text" 
+            				name="a16"
+                            value="{{e.oct}}">
+            <label for="a17">November:</label> 
+			<input type="text" 
+            				name="a17"
+                            value="{{e.nov}}">
+            <label for="a18">December:</label> 
+			<input type="text" 
+            				name="a18"
+                            value="{{e.dec}}">                                          
+                <form >
+                    <button class="button" onclick="home3()">Confirm</button>
+                </div>         
+    <script>
+        function home3() {
+            alert("Fees Record Edited!");
+            window.location.href = "feesrecord.html"; 
+        }
+    </script>
+        </div>
+    </form>
+</body> 
+
+</html>

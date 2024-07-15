@@ -1,0 +1,59 @@
+{% load static %}
+<html> 
+<head> 
+	<title>Add Student Details</title> 
+	<link rel="stylesheet" href="{% static 'style.css' %}"> 
+	<link rel="stylesheet" href="{% static 'slide_bg.css' %}">
+</head> 
+
+<body> 
+	<div class="main"> 
+		<div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
+		<h1>Add Student Details</h1> 
+		<form action="ins-student-details"> 
+			<label for="a1">Student Name:</label> 
+			<input type="text" 
+            name="a1"
+			placeholder="Enter Student name" required> 
+
+
+			<label for="a2">Guardian Name:</label> 
+			<input type="text" 
+				name="a2"
+				placeholder="Enter Guardian Name" required> 
+
+			<label for="a3">Student ID:</label> 
+			<input type="number"
+				name="a3"
+				placeholder="Enter Student ID" required> 
+
+            <label for="a3">Amount:</label> 
+            <input type="number"
+                    name="a4"
+                    placeholder="Enter Amount" required> 
+        
+			<label for="a5">Admission Date:</label> 
+			<input type="date" 
+            				name="a5"
+				placeholder="Enter Admission Date">
+
+			<label for="a6">Standard:</label> 
+			<input type="class"
+				name="a6"
+				placeholder="Enter your Standard"> 
+
+                <form >
+                    <button class="button" onclick="home()">Confirm</button>
+                </div>         
+    <script>
+        function home() {
+            alert("Student Added!");
+            window.location.href = "main-menu";
+        }
+    </script>
+</body> 
+
+</html>
+
