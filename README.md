@@ -41,8 +41,8 @@ The Fees Tracker Management System is a Django-based web application designed to
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/fees-tracker-management.git
-   cd fees-tracker-management
+   git clone https://github.com/swgtds/feeflow.git
+   cd feeflow
    ```
 
 2. **Create and activate a virtual environment:**
