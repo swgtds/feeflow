@@ -35,7 +35,6 @@ The Fees Tracker Management System is a Django-based web application designed to
 ### Prerequisites
 - Python 3.8+
 - Django 3.2+
-- Node.js (for frontend dependencies)
 
 ### Steps
 1. **Clone the repository:**
@@ -74,7 +73,7 @@ The Fees Tracker Management System is a Django-based web application designed to
    ```
 
 9. **Access the application:**
-   Open your browser and go to `http://127.0.0.1:8000/admin`.
+   Open your browser and go to `http://127.0.0.1:8000`.
 
 ## Usage
 - **Admin:**
